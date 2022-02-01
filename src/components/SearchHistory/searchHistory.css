@@ -1,0 +1,8 @@
+.search_history ul{
+    list-style-type: none;
+    color: white;
+}
+
+.search_history li {
+    margin-left: 0;
+}

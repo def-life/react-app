@@ -5,9 +5,32 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  font-size: calc(10px + 2vmin);
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+    
+}
+
+*, *::after, *::before {
+  box-sizing: border-box;
+}
+
+li:hover {
+  opacity: 0.75;
+}
+
+::selection {
+  background-color: pink;
+}
+
+.container {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.active {
+  color: green;
 }

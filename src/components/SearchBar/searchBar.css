@@ -1,0 +1,14 @@
+.searchbar:focus {
+    border: 2px solid green;
+    outline: none;
+    border-radius: 5px;
+}
+
+.searchbar {
+    border-radius: 5px;
+    border: 2px solid orange;
+}
+
+.searchbar, .searchbar:focus {
+    padding: 3px 6px;
+}

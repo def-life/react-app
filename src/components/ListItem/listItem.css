@@ -1,0 +1,25 @@
+.item h2[data-ref]::before {
+  content: attr(data-ref);
+  /* display: block; */
+  color: red;
+  margin-right: 1em;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: white;
+  text-align: center;
+  font-size: 1.7rem;
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+}
+
+.item h2 {
+  display: flex;
+  /* justify-content: center; */
+  align-items: baseline;
+}
+
+.item p {
+    margin-left: 3em;
+}
